@@ -8,22 +8,22 @@ using System.Text;
 
 namespace ShoppingCart.Application.Services
 {
-	public class MemberService : IMembersService
-	{
-		private IMemberRepository _membersRepo;
-		public void MembersService(IMemberRepository memberRepository)
-		{
-			_membersRepo = memberRepository;
-		}
+    public class MembersService : IMembersService
+    {
+        private IMemberRepository _membersRepo;
 
-		public void AddMember(MemberViewModel m)
-		{
-			Member member = new Member();
-			member.Email = m.Email;
-			member.FirstName = m.FirstName;
-			member.LastName = m.LastName;
+        public MembersService(IMemberRepository membersRepository)
+        {
+            _membersRepo = membersRepository;
+        }
 
-			_membersRepo.AddMember(member);
-		}
-	}
+        public void AddMember(MemberViewModel m)
+        {
+            Member member = new Member();
+            member.Email = m.Email;
+            member.FirstName = m.FirstName;
+            member.LastName = m.LastName;
+            _membersRepo.AddMember(member);
+        }
+    }
 }

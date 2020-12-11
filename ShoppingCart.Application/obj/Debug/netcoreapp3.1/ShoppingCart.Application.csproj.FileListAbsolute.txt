@@ -15,3 +15,20 @@ C:\Users\andre\Desktop\6.2B\Enterprise Programming\Week 1\SWD62BEP-main\Solution
 C:\Users\andre\Desktop\6.2B\Enterprise Programming\Week 1\SWD62BEP-main\Solution3\ShoppingCart.Application\obj\Debug\netcoreapp3.1\ShoppingCart.Application.dll
 C:\Users\andre\Desktop\6.2B\Enterprise Programming\Week 1\SWD62BEP-main\Solution3\ShoppingCart.Application\obj\Debug\netcoreapp3.1\ShoppingCart.Application.pdb
 C:\Users\andre\Desktop\6.2B\Enterprise Programming\Week 1\SWD62BEP-main\Solution3\ShoppingCart.Application\obj\Debug\netcoreapp3.1\ShoppingCart.Application.genruntimeconfig.cache
+C:\Users\andre\Source\Repos\EnterpriseProgramming_MAIN\ShoppingCart.Application\bin\Debug\netcoreapp3.1\ShoppingCart.Application.deps.json
+C:\Users\andre\Source\Repos\EnterpriseProgramming_MAIN\ShoppingCart.Application\bin\Debug\netcoreapp3.1\ShoppingCart.Application.runtimeconfig.json
+C:\Users\andre\Source\Repos\EnterpriseProgramming_MAIN\ShoppingCart.Application\bin\Debug\netcoreapp3.1\ShoppingCart.Application.runtimeconfig.dev.json
+C:\Users\andre\Source\Repos\EnterpriseProgramming_MAIN\ShoppingCart.Application\bin\Debug\netcoreapp3.1\ShoppingCart.Application.dll
+C:\Users\andre\Source\Repos\EnterpriseProgramming_MAIN\ShoppingCart.Application\bin\Debug\netcoreapp3.1\ShoppingCart.Application.pdb
+C:\Users\andre\Source\Repos\EnterpriseProgramming_MAIN\ShoppingCart.Application\bin\Debug\netcoreapp3.1\ShoppingCart.Data.dll
+C:\Users\andre\Source\Repos\EnterpriseProgramming_MAIN\ShoppingCart.Application\bin\Debug\netcoreapp3.1\ShoppingCart.Domain.dll
+C:\Users\andre\Source\Repos\EnterpriseProgramming_MAIN\ShoppingCart.Application\bin\Debug\netcoreapp3.1\ShoppingCart.Data.pdb
+C:\Users\andre\Source\Repos\EnterpriseProgramming_MAIN\ShoppingCart.Application\bin\Debug\netcoreapp3.1\ShoppingCart.Domain.pdb
+C:\Users\andre\Source\Repos\EnterpriseProgramming_MAIN\ShoppingCart.Application\obj\Debug\netcoreapp3.1\ShoppingCart.Application.csprojAssemblyReference.cache
+C:\Users\andre\Source\Repos\EnterpriseProgramming_MAIN\ShoppingCart.Application\obj\Debug\netcoreapp3.1\ShoppingCart.Application.AssemblyInfoInputs.cache
+C:\Users\andre\Source\Repos\EnterpriseProgramming_MAIN\ShoppingCart.Application\obj\Debug\netcoreapp3.1\ShoppingCart.Application.AssemblyInfo.cs
+C:\Users\andre\Source\Repos\EnterpriseProgramming_MAIN\ShoppingCart.Application\obj\Debug\netcoreapp3.1\ShoppingCart.Application.csproj.CoreCompileInputs.cache
+C:\Users\andre\Source\Repos\EnterpriseProgramming_MAIN\ShoppingCart.Application\obj\Debug\netcoreapp3.1\ShoppingCart.Application.csproj.CopyComplete
+C:\Users\andre\Source\Repos\EnterpriseProgramming_MAIN\ShoppingCart.Application\obj\Debug\netcoreapp3.1\ShoppingCart.Application.dll
+C:\Users\andre\Source\Repos\EnterpriseProgramming_MAIN\ShoppingCart.Application\obj\Debug\netcoreapp3.1\ShoppingCart.Application.pdb
+C:\Users\andre\Source\Repos\EnterpriseProgramming_MAIN\ShoppingCart.Application\obj\Debug\netcoreapp3.1\ShoppingCart.Application.genruntimeconfig.cache
