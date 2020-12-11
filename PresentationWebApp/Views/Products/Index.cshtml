@@ -13,9 +13,9 @@
 
         @foreach(var p in Model)
         {
-            <div class="col-4">
-                <div class="card" style="width: 18rem;">
-                    <img src="@p.ImageUrl" class="card-img-top image" alt="...">
+            <div class="col">
+                <div class="card">
+                    <img src="@p.ImageUrl" class="img-fluid" alt="...">
                     <div class="card-body">
                         <h5 class="card-title">@p.Name</h5>
                         <p class="card-text">$@p.Price</p>
@@ -23,7 +23,7 @@
 
                         @if (User.IsInRole("Admin"))
 						{
-                            <a href="/Products/Delete?id=@p.Id" class="btn btn-danger">Delete</a>
+                            <br/><a href="/Products/Delete?id=@p.Id" class="btn btn-danger">Delete</a>
                         }
                     </div>
                 </div>

@@ -1,4 +1,5 @@
-﻿using ShoppingCart.Application.Interfaces;
+﻿using AutoMapper;
+using ShoppingCart.Application.Interfaces;
 using ShoppingCart.Application.ViewModels;
 using ShoppingCart.Data.Repositories;
 using ShoppingCart.Domain.Interfaces;
@@ -12,15 +13,20 @@ namespace ShoppingCart.Application.Services
 {
     public class ProductsService : IProductsService
     {
+        private IMapper _mapper;
         private IProductsRepository _productsRepo;
-        public ProductsService(IProductsRepository productsRepository)
+        public ProductsService(IProductsRepository productsRepository, IMapper mapper)
         {
+            _mapper = mapper;
             _productsRepo = productsRepository;
         }
 
         public void AddProduct(ProductViewModel product)
         { 
             //changing this using automapper later on
+
+            //Converting from
+            //ProductViewModel >>> Product
 
             //Ctrl + .
             Product newProduct = new Product()
@@ -68,8 +74,18 @@ namespace ShoppingCart.Application.Services
 
         public IQueryable<ProductViewModel> GetProducts()
         {
+            // toc heck whether this works
+            //demonstrate the alternative way with project to
+
+            var products = _productsRepo.GetProducts();
+            var result = _mapper.Map<IQueryable<Product>, IQueryable<ProductViewModel>>(products);
+
+            return result;
+
+            //Domain >> ViewModels
+
             //to be implemented using AutoMapper
-            var list = from p in _productsRepo.GetProducts()
+            /*var list = from p in _productsRepo.GetProducts()
                        select new ProductViewModel()
                        {
                            Id = p.Id,
@@ -79,7 +95,7 @@ namespace ShoppingCart.Application.Services
                            Category = new CategoryViewModel() { Id = p.Category.Id, Name = p.Category.Name },
                            ImageUrl = p.ImageUrl
                        };
-            return list;
+            return list;*/
         }
 
         public IQueryable<ProductViewModel> GetProducts(int category)
